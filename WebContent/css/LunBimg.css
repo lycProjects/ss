@@ -1,0 +1,39 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.swapImg{
+	position: absolute;
+}
+.btn{
+	position:absolute;
+	height: 90px;
+	width: 60px;
+	background: rgba(0,0,0,0);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 90px;
+	font-size: 40px;
+	top: 155px;
+	cursor: pointer;
+}
+.btnRight{
+	left: 380px;
+
+}
+#tabs{
+	height: 20px;
+	width: 20px;
+	background: #FF0000;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+	float: left;
+	color:#FFFFFF;
+	margin-right: 10px;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.bg{
+	background: #00FF21;
+}

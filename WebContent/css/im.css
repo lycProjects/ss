@@ -1,0 +1,92 @@
+#im {
+ z-index:9999;
+ position:fixed;
+ top:213px;
+ right:0;
+ width:121px
+}
+#im.im-isclose {
+ width:25px
+}
+#im #im-btn-open {
+ text-align:right;
+ cursor:pointer;
+ display:none
+}
+#im #im-dajia {
+ margin-bottom:2px
+}
+#im #im-dajia a {
+ display:block;
+ width:87pt;
+ height:150px;
+ overflow:hidden;
+ border:2px solid #9B1600
+}
+#im #im-dajia a:hover {
+ border:2px solid #269804;
+ opacity:.9
+}
+#im #im-header {
+ height:40px;
+ background:url(/skins/shengte/images/kefu/im_01.gif)
+}
+#im #im-header span#im-btn-close {
+ display:inline-block;
+ width:50px;
+ height:30px;
+ float:right;
+ cursor:pointer
+}
+#im #im-table {
+ border-collapse:collapse;
+ border-spacing:0;
+ width:100%;
+ background:url(/skins/shengte/images/kefu/bg.gif) repeat-y
+}
+#im #im-table td,#im #im-table th {
+ padding:0;
+ margin:0
+}
+#im #im-table div {
+ background:url(/skins/shengte/images/kefu/im_qbg.gif) no-repeat center;
+ margin-bottom:4px;
+ font-size:9pt
+}
+#im #im-table div a {
+ color:#414141;
+ display:block;
+ height:22px
+}
+#im #im-table div a:hover {
+ text-decoration:none
+}
+#im #im-footer {
+ height:30px;
+ background:url(/skins/shengte/images/kefu/im_04.gif)
+}
+#im #im-weixin {
+ position:relative
+}
+#im #im-weixin span {
+ position:absolute;
+ top:0;
+ right:0;
+ display:inline-block;
+ width:50px;
+ height:30px;
+ float:right;
+ cursor:pointer
+}
+.im-offline #im-header {
+ background:url(/skins/shengte/images/kefu/im_01_offline.gif)!important
+}
+.im-offline #im-footer {
+ background:url(/skins/shengte/images/kefu/im_04_offline.gif)!important
+}
+.im-offline #im-footer a {
+ display:inline-block;
+ width:80%;
+ height:100%;
+ float:right
+}

@@ -1,0 +1,181 @@
+.top-nav {
+	height: 46px;
+	width: 100%;
+    border-bottom: 1px solid #edeef0;
+    background-color: #fcfcfc;
+}
+.top-nav .top-nav-left {
+    max-width: 1050px;
+    margin: 0 auto;
+
+}
+.top-nav .top-nav-left a {
+	display: inline-block;
+    line-height: 44px;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #4c4c4c;
+    font-family: 黑体;
+    width: 60px;
+    text-align: center;
+}
+.top-nav .top-nav-left a:hover {
+	border-color: #edeef0;
+    color: #ff8400;
+}
+/*-----------------------------------*/
+.top-search-wrap {
+	height: 120px;
+    width: 100%;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+.top-search-wrap .sina-logo {
+	display: inline-block;
+	background: url(../img/LOGO_2x.png);
+	background-repeat: no-repeat;
+	width: 222px;
+    height: 94px;
+    margin-left: -1%;
+    margin-top: 16px;
+    float: left;
+}
+.top-search-wrap  .top-main {
+	display: inline-block;
+    float: left;
+    width: 60%;
+    height: 120px;
+    border-radius: 16px;
+}
+.top-search-wrap .top-main .top-search {
+    float: left;
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+/*select下拉框的样式控制*/
+.top-search-wrap .top-main .top-search select{
+	line-height: 38px;
+    font-weight: normal;
+    font-size: 14px;
+    border: 0px; 
+    outline: none;
+    appearance:none;
+   -moz-appearance:none;
+   -webkit-appearance:none;
+    background: url(../img/icon.png) 45px -338px no-repeat;
+    padding-left: 11px;
+    float: left;
+    display: inline;
+    width: 66px;
+    border: 1px solid #c1c1c1;
+    border-right: 0;
+    height: 40px;
+    border-radius: 3px 0 0 3px;
+    position: relative;
+    -webkit-appearance: listbox;
+}
+option{
+	 border-radius: 3px 0 0 3px;
+	 background-color:rgb(255, 103, 0) ;
+}
+
+.top-search-wrap .top-main .top-search .top-text {
+	border: 1px solid #c1c1c1;
+	width: 76%;
+	border-right: 0;
+    float: left;
+}
+.top-search-wrap .top-main .top-search .top-text input {
+	width: 98%;
+    border: none;
+    height: 38px;
+    outline: none;
+    padding-left: 2%;
+}
+.top-search-wrap .top-main .top-search .top-main-nav {
+	float: left;
+    display: inline-block;
+    width: 11.7%;
+    height: 40px;
+    background: rgb(255,103,0) url(../img/search.png) 4px 4px no-repeat;
+    cursor: pointer;
+  	border-radius: 0px 3px 3px 0;
+}
+/*--------------------*/
+.top-search-wrap .top-main .top-nav-show{
+    height: 64px;
+    width: 100%;
+    margin-top: 66px;
+    margin-left: -26px;
+}
+.top-search-wrap .top-main .top-nav-show .nav-mod-1 {
+	width: 33.33%;
+	height: 64px;
+	float: left;
+}
+.top-search-wrap .top-main .top-nav-show .nav-mod-1 ul li {
+	list-style: none;
+    display: inline-block;
+    float: left;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    display: inline;
+    font-size: 14px;
+}
+.top-search-wrap .top-main .top-nav-show .nav-mod-1 ul li a {
+	text-decoration: none;
+	color: #333333;
+}
+.top-search-wrap .top-main .top-nav-show .nav-mod-1 ul li a:hover {
+	text-decoration: underline;
+	color: red;
+}
+/*--------------------------*/
+.top-search-wrap .top-weatherBox {
+	height: 64px;
+    width: 17.0%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 36px;
+}
+.top-search-wrap .top-weatherBox .now-wea-city {
+	color: #ff8400;
+    font-size: 14px;
+}
+/*---------------------*/
+
+.content{
+   	width: 100%;
+	height: 92px;
+	margin: 0px auto;
+	border: none;
+}
+
+.top-navigation {
+	height: 50px;
+    width: 1050px;
+    margin: 0 auto;
+    background: url(../img/nav-bgg.png);
+    margin-top: -8px;
+    line-height: 50px;
+    background-position: 186px;
+}
+.top-navigation ul li {
+	float: left;
+    width: 12.5%;
+    text-align: center;
+}
+.top-navigation .a-navigation {
+	font-size: 18px;
+	color: white;
+}
+.top-navigation .a-navigation:hover {
+	border-color: #edeef0;
+    color: #a00;
+	text-decoration:none;
+}

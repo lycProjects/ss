@@ -1,0 +1,13 @@
+
+.container .row p{
+font-size: 33px;
+margin-top: 25px;
+}
+.container .row span{
+font-size: 25px;
+margin-top: 0px;
+}
+.linkwrap .site-links ul{
+font-size: 16px;
+font-family: "微软雅黑";
+}

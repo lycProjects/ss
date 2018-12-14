@@ -1,0 +1,55 @@
+var i=0;
+var time;
+$(function()
+{
+	$(".swapImg").eq(0).show().siblings().hide();
+	showTime();
+	$(".tab").hover(
+		function()
+		{
+			i=$(this).index();
+			show();
+			clearInterval(time);
+		},function()
+		{
+			showTime();
+		});
+		$(".btnLeft").click(function()
+		{
+			clearInterval(time);
+			if(i==0)
+			{
+				i=6;
+			}
+			i--;
+			show();
+			showTime();
+		});
+		$(".btnRight").click(function()
+		{
+			clearInterval(time);
+			if(i==5)
+			{
+				i=-1;
+			}
+			i++;
+			show();
+			showTime();
+		});
+});
+function show()
+{
+	$(".swapImg").eq(i).fadeIn(300).siblings().fadeOut();
+	$(".tab").eq(i).addClass("bg").siblings().removeClass("bg")
+}
+function showTime()
+{
+	time=setInterval(function(){
+		i++;
+		if(i==6)
+		{
+			i=0;
+		}
+		show();
+	},3000);
+}

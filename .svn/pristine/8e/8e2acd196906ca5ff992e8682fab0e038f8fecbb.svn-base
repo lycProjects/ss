@@ -1,0 +1,169 @@
+
+.plist {
+ width:auto;
+ margin:0 auto;
+ overflow:auto;
+ zoom:1;
+ padding:10px 0;
+ box-sizing:border-box
+}
+.plist li {
+ box-sizing:border-box;
+ padding:6px 0;
+ text-align:center;
+ overflow:auto;
+ zoom:1
+}
+.plist li .p-1 {
+ margin:0 auto
+}
+.plist li .p-1 a img {
+ box-sizing:border-box;
+ vertical-align:text-bottom;
+ padding:1px;
+ border:1px solid #ccc
+}
+.plist li .p-1 a:hover img {
+ border-color:#4FAAD9;
+ zoom:1
+}
+.plist li .p-2 {
+ font-size:12px;
+ padding:10px 0;
+ margin:0 auto
+}
+.plist li .p-2 a {
+ color:#484848
+}
+.plist li .p-2 a:hover {
+ color:#1682CE;
+ text-decoration:underline
+}
+.plist li .p-2 h3 {
+ font-weight:400;
+ color:#0084C3;
+ text-align:left;
+ padding:5px 0
+}
+.plist li .p-2 p {
+ line-height:24px;
+ text-align:left
+}
+.plist-nobd li .p-1 a img {
+ border:none
+}
+.plist-nobd li .p-1 a:hover img {
+ border:none
+}
+.plist-title li {
+ text-align:left
+}
+.plist-title li a {
+ color:#484848
+}
+.plist-title li span {
+ float:right
+}
+.plist-block-list li {
+ float:left
+}
+.plist-block-list li .p-1 {
+ width:80%
+}
+.plist-block-list li .p-1 a {
+ display:block;
+ text-align:center;
+ margin:0 auto
+}
+.plist-block-list li .p-1 a img {
+ width:100%
+}
+.plist-block-list li .p-2 {
+ width:80%
+}
+
+
+.ipro .hd h2 {
+ height:46px;
+ width:176px;
+ text-align:left;
+ padding-left:20px;
+ vertical-align:middle;
+ line-height:46px;
+ letter-spacing:1.5px;
+ background:url(../images/bg_flag_2.png) no-repeat 0 0
+}
+.ipro .hd h2 a {
+ color:#fff
+}
+.ipro .hd .more {
+ display:inline-block;
+ margin-top:4px
+}
+.ipro .ipro-list {
+ display:none
+}
+.protab {
+ padding:20px 0;
+ width:80%;
+ overflow:auto;
+ margin:0 auto
+}
+.protab li {
+ width:24.9%;
+ float:left;
+ text-align:center
+}
+.protab a {
+ display:inline-block;
+ border:1px solid #000;
+ width:80%;
+ text-align:center;
+ padding:24px 0;
+ font-weight:700;
+ font-size:16px;
+ color:#000
+}
+.protab a.on,.protab a:hover {
+ background-color:#b47514;
+ color:#fff;
+ border-color:#986311
+}
+.ipro-list {
+ padding-bottom:0
+}
+.ipro-list li {
+ width:25%
+}
+.ipro-list li .p-1 {
+ width:90%
+}
+.ipro-list li .p-1 a img {
+ border-color:#646464
+}
+.ipro-list li .p-1 a:hover img {
+ border-color:#f3692d
+}
+.ipro-list li .p-2 {
+ width:90%
+}
+.ipro-list li .p-2 h3 {
+ color:#000;
+ text-align:center;
+ font-size:18px;
+ line-height:26px
+}
+.ipro-list li .p-2 h3 a {
+ color:#000
+}
+.ipro-list li .p-2 p {
+ text-align:center;
+ font-size:16px;
+ color:#969696
+}
+
+
+
+
+
+

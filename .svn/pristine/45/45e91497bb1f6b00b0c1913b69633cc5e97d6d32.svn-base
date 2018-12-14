@@ -1,0 +1,138 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<title>文古苑-藏品古玩</title>
+
+<div class="container">
+
+	<div id="s-market-body" style="margin-left:30px">
+		
+	<!--页面小导航-->
+		<div class="s-market-head" >
+			<ol class="breadcrumb changeol">
+				当前位置：&nbsp;&nbsp;<a href='/Sansu/goIndex'><font color='#FF6700'>主页</font></a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href='/Sansu/list/3.htm'><font color='#FF6700'>藏品古玩</font></a>
+			</ol>
+		</div> 
+	<!--页面内容-->	
+	
+	    <div class="middal" style="float: left;">
+			<div class="s-market-content" style="width: 1050px;height: 1300px;">
+				<h1 style="color: #FF6700;font-size: 28px;margin-top: 12px;">瓷器欣赏</h1>
+		<ul class="protab">
+			<li><a href="${pageContext.request.contextPath}/curio/curiotoy.html">瓷器欣赏</a></li>
+			<li><a href="${pageContext.request.contextPath}/curio/jade.html">玉器欣赏</a></li>
+			<li><a href="${pageContext.request.contextPath}/curio/paint.html">字画欣赏</a></li>
+			<li><a href="${pageContext.request.contextPath}/curio/othercurio.html">杂项欣赏</a></li>
+		</ul>
+		<ul class="plist plist-block-list ipro-list">
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610004.html">
+					<img src="${pageContext.request.contextPath}/img/20180610004.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610004.html">青花碗</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610012.html">
+					<img src="${pageContext.request.contextPath}/img/20180610012.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610012.html">珐琅彩瓷五色牡丹碗</a></h3>
+					<p>议价</p>
+				</div>
+            </li>
+				<li>
+					<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610016.html">
+						<img src="${pageContext.request.contextPath}/img/20180610016.jpg" alt=""></a></div>
+					<div class="p-2">
+			 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610016.html">青花描金龙纹瓶</a></h3>
+						<p>议价</p>
+					</div>
+				</li>
+
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610003.html">
+					<img src="${pageContext.request.contextPath}/img/20180610003.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610003.html">汝窑笔洗</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+							<div class="p-1"><a href="${pageContext.request.contextPath}/curioshow/20180610002.html">
+								<img src="${pageContext.request.contextPath}/img/20180610002.jpg" alt=""></a></div>
+							<div class="p-2">
+					 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610002.html">青花狮子戏球脉枕</a></h3>
+								<p>议价</p>
+							</div>  
+						</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610005.html">
+					<img src="${pageContext.request.contextPath}/img/20180610005.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610005.html">斗彩海马纹玉壶春瓶</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610007.html">
+					<img src="${pageContext.request.contextPath}/img/20180610007.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610007.html">青花鱼纹高足杯</a></h3>
+					<p>议价</p>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610008.html">
+					<img src="${pageContext.request.contextPath}/img/20180610008.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610008.html">蓝地粉彩喜上眉梢赏瓶</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a href="${pageContext.request.contextPath}/curioshow/20180610009.html">
+					<img src="${pageContext.request.contextPath}/img/20180610009.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610009.html">胭脂红瓷器</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610010.html">
+					<img src="${pageContext.request.contextPath}/img/20180610010.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610010.html">鹤纹青花人物故事碟</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610006.html">
+					<img src="${pageContext.request.contextPath}/img/20180610006.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610006.html">粉彩八仙过海人物故事天球甁</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+			<li>
+				<div class="p-1"><a  href="${pageContext.request.contextPath}/curioshow/20180610011.html">
+					<img src="${pageContext.request.contextPath}/img/20180610011.jpg" alt=""></a></div>
+				<div class="p-2">
+		 			<h3><a href="${pageContext.request.contextPath}/curioshow/20180610011.html">红釉珐琅彩万寿无疆碗</a></h3>
+					<p>议价</p>
+				</div>
+			</li>
+		</ul>
+
+			<div class="pagelist" style="padding: 30px 0;"><a title="Total record" class="p-total">&nbsp;<b>16</b> </a>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;
+				<a href="${pageContext.request.contextPath}/curio/curiotoya.html">2</a>&nbsp;
+					<a href="${pageContext.request.contextPath}/curio/curiotoya.html">下一页</a>&nbsp;<a href="${pageContext.request.contextPath}/curio/curiotoya.html">尾页</a></div>
+				</div>
+			</div><!-- end gbox -->
+		</div>
+		    </div>
+		</div> 
+	</div>
+</div>

@@ -1,0 +1,127 @@
+a:hover{
+	text-decoration: none;
+}
+img{
+	display: block;
+	width: 220px;
+	height: 150px;
+	border-radius: 3px;
+}
+.navbar-brand{
+	background-image: url(../img/1.jpg);
+	width:50px;
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.side-bar .list-group-item{
+	border:0px;
+	border-radius:3px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.side-bar .list-group-item.active{
+	background-color: #F0AD4E;
+}
+.news-list-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-color: 1px solid #5E5E5E;
+}
+.news-list-item :first-child{
+	padding-top: 0;
+}
+.news-list-item .title{
+	font-size: 20px;
+	font-weight:bold;
+	margin-bottom: 15px;
+	line-height: 1.5;
+	color:#1B6D85;
+	
+}
+.news-list-item .info{
+	color:#888;
+}
+.avatar{
+	display: inline-block;
+}
+.avatar img{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+.news-list-item .title:hover{
+	color:#1B6D85;
+}
+.side-bar-card{
+	background:rgba(0,0,0,.05);
+	margin-top: 15px;
+	padding: 10px 0;
+}
+.side-bar-card img{
+	width:110px;
+	height:110px;
+}
+.side-bar-card.flag{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.side-bar-card .text-lg{
+	font-size: 150%;
+	margin-top: 10px;
+}
+.side-bar-card .card-title{
+	font-size: 20px;
+	color:#204D74;
+}
+.side-bar-card .card-body .list.item{
+	padding:10px 15px;
+	font-weight: block;
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 10px;
+}
+.side-bar-card .card-body .list.item:hover{
+	background:rgba(0,0,0,.05)
+}
+.card-body .list.item .title{
+	padding-bottom: 5px;
+}
+card-body .list.item .desc{
+	color:#999;
+}
+.news-title{
+	line-height: 1.5;
+	font-size: 28px;
+}
+.news-status{
+	color:#999;
+}
+.news-status .label{
+	opacity: .8;
+}
+.news-content{
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+.news-content img{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 710px;
+	height: 280px;
+}
+.no-padding-h{
+	padding-left: 0;
+	padding-right: 0;
+}
+.footer{
+	margin-top: 20px;
+	padding: 50px 0;
+	text-align: center;
+	color:#999999;
+}
+.search-bar{
+	font-size: 18px;
+}

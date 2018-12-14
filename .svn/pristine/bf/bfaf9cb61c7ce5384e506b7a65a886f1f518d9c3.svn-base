@@ -1,0 +1,36 @@
+package com.Sansu.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.Sansu.model.Curio;
+
+
+public class CurioDao {
+	public  static Curio check(Curio curio) {
+		return curio;
+	
+		/*Curio curios=null;
+			String name=curios.getCurName();
+			String sql="select * from t_curio where imageName=?";
+			ResultSet rs=dao.query(sql,name,password);
+			try {
+				if(rs.next())
+				{
+					users=new Users();
+					users.setId(rs.getInt("id"));
+					users.setName(rs.getString("name"));
+					users.setPassword(rs.getString("password"));
+					
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			dao.close();
+			return users;
+		*/
+		
+	}
+
+}

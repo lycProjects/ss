@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN" "\\urlrewrite3.2.dtd">
+
+<urlrewrite>
+	<rule>
+		<note>show newsId 2</note>
+		<from>^/([a-z]+)/([0-9]+).html$</from>
+		<to type="forward">/news?action=$1&amp;newsId=$2</to>
+	</rule>
+	
+	<rule>
+		<note>curioshow curioId 2</note>
+		<from>^/([a-z]+)/([0-9]+).html$</from>
+		<to type="forward">/news?action=$1&amp;newsId=$2</to>
+	</rule>
+	
+
+	<rule>
+		<note>list typeId 2</note>
+		<from>^/([a-z]+)/([0-9]+).htm$</from>
+		<to type="forward">/news?action=$1&amp;typeId=$2</to>
+	</rule>
+
+	<rule>
+		<note>新闻列表上下页 2</note>
+		<from>^/list/([0-9]+)/([0-9]+)$</from>
+		<to type="forward">/news?action=list&amp;typeId=$1&amp;page=$2</to>
+	</rule>
+
+
+	<rule>
+		<note> search首页 0</note>
+		<from>^/search$</from>
+		<to type="forward">/news?action=Lusearch</to>
+	</rule>
+
+	<rule>
+		<note> search 上下页 1</note>
+		<from>^/search/([0-9]+)$</from>
+		<to type="forward">/news?action=Lusearch&amp;page=$1</to>
+	</rule>
+
+	<rule>
+		<note>其他业务 * 1</note>
+		<from>^/business/([a-z]+).html$</from>
+		<to type="forward">/business?action=$1</to>
+	</rule>
+	
+	<rule>
+		<note>其他业务 * 2</note>
+		<from>^/curio/([a-z]+).html$</from>
+		<to type="forward">/curio?action=$1</to>  
+	</rule>
+	
+	<rule>
+		<note>评论保存</note>
+		<from>^/comment/([a-z]+)$</from>
+		<to type="forward">/comment?action=$1</to>
+	</rule>
+
+	<rule>
+		<note>首页  0</note>
+		<from>^/index.html$</from>
+		<to type="forward">/goIndex</to>
+	</rule>
+
+
+</urlrewrite>

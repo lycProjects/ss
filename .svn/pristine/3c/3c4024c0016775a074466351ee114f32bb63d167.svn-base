@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.site-red-lace {
+	background-image: url(../img/red-lace-1.png);
+    background-repeat: repeat-x;
+    height: 5px;
+    min-width: 1036px;
+}
+.footer {
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 160px;
+    color: white;
+    overflow: hidden;
+    min-width: 1036px;
+    background-image: url(../img/footer1111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer .wrap {
+	max-width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 160px;
+}
+.footer .wrap .footnav {
+	padding-top: 20px;
+    font-size: 16px;
+}
+.footer .wrap .footnav span {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.footer .wrap .footnav span a{
+	color: #FFFFFF;
+}
+.footer .wrap .contact {
+	padding-top: 20px;
+}
+.footer .wrap .contact span {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.footer .wrap .copyright {
+	padding-top: 10px;
+}
+.footer .wrap .certificate {
+	padding-top: 5px;
+}
+.footer .wrap .certificate span {
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.wrap {
+	width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+}
+img {
+	border: 0;
+}
+.linkwrap {
+	width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+    margin-top: 5px;
+}
+.linkwrap .site-links {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    height: auto;
+    overflow: auto;
+}
+.linkwrap .site-links li{
+    float: left;
+    list-style: none;
+    color: #DDD;
+}
+.linkwrap .site-links li a {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #3E3E3E;
+    text-decoration: none;
+}

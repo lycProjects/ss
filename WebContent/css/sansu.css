@@ -1,0 +1,442 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+#mainTR .center .centerposition .centerul {
+	list-style: none;
+	
+}
+#mainTR .center .centerposition .centerul a {
+	color: #666;
+	text-decoration: none;
+}
+#mainTR .center .centerposition .centerul a:hover {
+	 color: rgb(255, 103, 0);
+}
+#mainTR .center .centerposition .centerul  li {
+	overflow: hidden;
+	    background: url(../img/icon01.png) no-repeat 0 -880.5px;
+	line-height: 30px;
+	padding-left: 9px;
+}
+body {
+	font-family: MicroSoft YaHei;
+}
+
+.main {
+	width: 1050px;
+	margin: 5px auto;
+}
+#mainTL {
+	width: 756px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 24px;
+}
+#mainTL .top {
+	height: 50px;
+	width: 688px;
+}
+#mainTL .top .nav {
+	height: 50px;
+    width: 558px;
+	display: inline-block;
+	float: right;
+}
+#mainTL .top .logo {
+	display: inline-block;	
+}
+#mainTL .top .nav-margin {
+	margin-top: 25px;
+	font-size: 14px;
+    font-family: Microsoft YaHei ;
+
+}
+#mainTL .center {
+	width: 756px;
+	border: solid 1px #dcdcdc;
+	
+}
+#mainTL .center .centertitle {
+	text-align: center;
+	margin: 20px 0px 3px 0px;	
+}
+#mainTL .center .navshow {
+    padding: 13px 0px;
+    text-align: center;
+}
+#mainTL .center .navshow  .navshow1{
+	display: inline-block;
+    margin-left: 25px;
+    color: #666;
+    font-size: 16px;
+}
+#mainTL .center .navshow  .navshow6{
+	display: inline-block;
+    color: #666;
+    font-size: 16px;
+}
+#mainTL .center .navshow  .navshow2{
+	display: inline-block;
+    color: red;
+    margin-left: 15px;
+    font-family: Microsoft YaHei ;
+}
+#mainTL .center .navshow  .navshow3{
+	display: inline-block;
+}
+#mainTL .center .navshow  .navshow4{
+	display: inline-block;
+    color: red;
+}
+#mainTL .center .navshow  .navshow5{
+	display: inline-block;
+	font-family: MicroSoft YaHei;
+}
+#mainTL .center .navpic {
+	text-align: center;
+	margin: 10px 0px 5px 0px;
+}
+
+
+#mainTL .center .navpicmes {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #908d8d;
+}
+
+#mainTL .center .bottom {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 13px;
+}
+#mainTL .center .bleft {
+	display: inline-block;	
+	margin-bottom: 10px;
+}
+
+#mainTL .center .bright{
+    display: inline-block;
+    text-indent: 30px;
+    font-size: 18px;
+    font-size: 15px;
+    margin-left: 10px;
+    overflow: hidden;
+    height: auto; 
+    font: 16px/28px PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+    border-top: 1px solid #eeeeee;
+    padding-top: 30px;
+    width: 100%;
+}
+#mainTR {
+	height: auto;
+	width: 283px;
+	float: right;
+}
+#mainTR .top .rselect{
+	margin-top: 16px;	
+	font-size: 0;
+}
+#mainTR .top .rselect .nav {
+    height: 30px;
+    width: 60px;
+	border: solid 1px #dcdcdc;
+    border-right: none;
+}
+#mainTR .top .rselect .rinput{
+	height: 28px;
+    outline: none;
+    width: 220px;
+    padding-left: 3px;
+    border: 1px solid #a5a1a1;
+    border-right: none;
+}
+#mainTR .top .rselect .rbutton {
+	height: 30px;
+    width: 65px;
+    cursor: pointer;
+}
+#mainTR .center .centerposition {
+	
+    font-family: MicroSoft YaHei;
+    margin-bottom: 18px;
+    border: solid 1px #dcdcdc;
+
+}
+#mainTR .center .centerposition .centerh3 {
+	margin-top: 5px;
+    margin-bottom: 2px;	
+    margin-left: 20px;
+    font-size: 20px;
+}
+#mainTR .center .centerposition .centerul {
+    margin-left: 20px;	
+}
+a {
+	text-decoration: none;
+}
+#s-market-body {
+	width: 1050px;
+	height: 38px;
+	margin: 0 auto;
+}
+.s-market-head {
+	margin-top: 6px;
+	margin-left: 28px;
+	font-family: MicroSoft YaHei;
+}
+
+.s-market-head .breadcrumb .bdli a {
+	color: rgb(255, 103, 0);
+}
+.s-market-body .breadcrumb  {
+    list-style: none;
+}
+.s-market-body .breadcrumb li {
+	display: inline-block;
+	font-size: 14px;
+}
+.bot {
+width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}	
+.bot .botpo {
+
+margin-top: 5px;
+margin-left: -36px;
+}
+.bot .botpo p a {
+    color: black;
+    /*display: inline-block;
+    text-indent: 16px; */
+    font-size: 13px;
+}
+.bot .botpo p a:hover {
+	 color: rgb(255, 103, 0);
+}
+.bot .botpo p {
+    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.bot .botpo p  .bottet {
+	width: 566px;
+    height: 80px;
+    overflow-y: scroll;	
+}
+.bot .botpo p.bup {
+	text-align: right;
+}
+.bot .botpo .bup button {
+	height: 31px;
+    width: 100px;
+    margin-right: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    background: rgba(255,103,10,1);
+    outline: none;
+    border: none;
+}
+.pinglun2 {
+	clear: both;
+	/* height: 2080px; */
+	width: 756px;
+	overflow: hidden;
+}
+.pinglun2 .pinglun {
+    margin-bottom: 10px;
+   
+}
+.mybutton{
+	float: right;
+    margin-top: 10px;
+    background-color: rgb(255,103,0);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.pinglun .pinglundiv {
+	margin-bottom: 10px;
+}
+.pinglundiv .navpinglun{
+	font-family: MicroSoft YaHei;
+    font-size: 18px!important;
+}
+.pinglundiv .navmeg{
+    font-size: 13px;
+    margin-left: 10px;
+    color: #c2c0c0;	
+}
+.pinglun2 .botpo {
+	height: 123px;
+    border: 1px solid #379BE9;
+    width: 688px;	
+}
+.pinglun2 .botpo .bothang {
+	border-bottom:1px solid #DDD;
+	text-align: center;
+    border: none;
+}
+.pinglun2 .botpo .bothang .bottet {
+	padding: 10px;
+    width: 655px;
+    height: 60px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+}
+.pinglun2 .botpo .bottn {
+	text-align: right;
+    margin: 6px 10px 0 0;
+}
+.pinglun2 .botpo .bottn .logobtn {
+    background-color: #328BD2;
+    width: 67px;
+    line-height: 28px;
+    height: 28px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;	
+}
+.pinglun2 .yonghu {
+	
+}
+.pinglun2 .yonghu .yonghulogo {
+	height: 100px;
+}
+.pinglun2 .yonghu .yonghulogo a.logoone {
+	display: inline-block;
+	width: 40px;
+    height: 40px;
+    margin-top: 26px;
+    overflow: hidden;
+    border-radius: 60px;
+    float: left;
+}
+.pinglun2 .yonghu .yonghulogo .logonav {
+	float: left;
+    height: 100px;
+    border-top: solid 1px #dcdcdc;
+    width: 756px;
+}
+.pinglun2 .yonghu .yonghulogo .logonav .logoping {
+    margin-top: 6px;
+    text-indent: 30px;	
+    font-size: 14px;
+    width: 590px;
+    margin-left: 64px;
+}
+.pinglun2 .yonghu .yonghulogo .logonav .logotwo {
+	font-size: 12px;
+}
+
+.fixed_box {
+    width: 154px;
+	position: fixed;
+    z-index: 9999;
+    bottom: 60px;
+    overflow: hidden;
+    margin: 0px;
+    right: 0px;
+}
+.content_box {
+    width: 154px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    right: 0px;
+    background: #cf3232;
+    height: auto;
+    right: 0px;
+}
+.close_btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.close_btn, .close_btn a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../img/you.png) no-repeat;
+}
+
+.close_btn a span {
+    display: none;
+}
+.content_title {
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    text-indent: 20px;
+}
+.content_title span {
+    color: #ffffff;
+}
+.content_list {
+    font-family: MicroSoft YaHei;
+    padding: 20px 5px 0px 5px;
+    font-size: 12px;
+    text-align: center;
+    background: #fffef0;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 8px;
+}
+.content_list .qqserver p {
+    text-align: center;
+    padding: 6px 0;
+    margin: 0;
+    vertical-align: middle;
+}
+.content_list .qqserver p a {
+    color: #333333;
+    text-decoration: none;
+}
+.content_list .qqserver p img {
+    display: inline;
+    margin-top: -5px;
+    vertical-align: middle;
+}
+.content_list .phoneserver {
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.content_list .phoneserver p {
+    padding: 2px 0;
+    _height: 16px;
+    margin: 0;
+    color: #666666;
+}
+.content_bottom {
+    width: 154px;
+    height: 10px;
+}
+
+.show_btn {
+    display: block;
+    width: 31px;
+    height: 113px;
+    background: url(../img/open.gif) no-repeat;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    cursor: pointer;
+    right: 123px;
+}

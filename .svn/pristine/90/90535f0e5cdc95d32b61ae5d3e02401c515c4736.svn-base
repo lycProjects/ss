@@ -1,0 +1,91 @@
+package com.Sansu.model;
+
+public class Curio {
+	private int curId;
+	private String curNum;
+	private String curName;
+	private String price;
+	private String model;
+	private String curYear;
+	private String curType;
+	private String imageName;
+	private int curHot;
+	public Curio(int curId, String curNum, String curName, String price, String model, String curYear, String curType,
+			String imageName, int curHot) {
+		super();
+		this.curId = curId;
+		this.curNum = curNum;
+		this.curName = curName;
+		this.price = price;
+		this.model = model;
+		this.curYear = curYear;
+		this.curType = curType;
+		this.imageName = imageName;
+		this.curHot = curHot;
+	}
+	public Curio() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public String toString() {
+		return "Curio [curId=" + curId + ", curNum=" + curNum + ", curName=" + curName + ", price=" + price + ", model="
+				+ model + ", curYear=" + curYear + ", curType=" + curType + ", imageName=" + imageName + ", curHot="
+				+ curHot + "]";
+	}
+	public int getCurId() {
+		return curId;
+	}
+	public void setCurId(int curId) {
+		this.curId = curId;
+	}
+	public String getCurNum() {
+		return curNum;
+	}
+	public void setCurNum(String curNum) {
+		this.curNum = curNum;
+	}
+	public String getCurName() {
+		return curName;
+	}
+	public void setCurName(String curName) {
+		this.curName = curName;
+	}
+	public String getPrice() {
+		return price;
+	}
+	public void setPrice(String price) {
+		this.price = price;
+	}
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public String getCurYear() {
+		return curYear;
+	}
+	public void setCurYear(String curYear) {
+		this.curYear = curYear;
+	}
+	public String getCurType() {
+		return curType;
+	}
+	public void setCurType(String curType) {
+		this.curType = curType;
+	}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+	public int getCurHot() {
+		return curHot;
+	}
+	public void setCurHot(int curHot) {
+		this.curHot = curHot;
+	}
+
+}
